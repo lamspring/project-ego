@@ -1,0 +1,16 @@
+[Unit]
+Description=EGO-A continuous DSH and Feishu service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/project-ego
+EnvironmentFile=/etc/ego-a/ego-a.env
+ExecStart=/usr/bin/python3 /opt/project-ego/dsh_feishu_service.py
+Restart=on-failure
+RestartSec=10
+KillMode=control-group
+
+[Install]
+WantedBy=multi-user.target
