@@ -1,0 +1,7 @@
+{
+  "budget": 0.5,
+  "candidates": [
+    {"action": "review_unresolved_question", "goal_relevance": 0.8, "information_gain": 0.7, "skill_growth": 0.4, "continuity": 0.6, "cost": 0.2, "risk": 0.1},
+    {"action": "publish_external_result", "goal_relevance": 1.0, "information_gain": 0.2, "cost": 0.1, "risk": 0.8, "requires_approval": true}
+  ]
+}
