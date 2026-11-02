@@ -1,0 +1,9 @@
+{
+  "EGO_FEISHU_OWNER_OPEN_ID": "ou_replace_me",
+  "EGO_FEISHU_OWNER_CHAT_ID": "oc_replace_me",
+  "OBSIDIAN_CLI": "/usr/bin/obsidian",
+  "EGO_OBSIDIAN_VAULT": "ego-a数据库",
+  "EGO_NODE_DIR": "/usr/local/bin",
+  "DSH_BIN": "/usr/local/bin/dsh",
+  "LARK_BIN": "/usr/local/bin/lark-cli"
+}

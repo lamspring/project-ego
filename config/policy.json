@@ -1,0 +1,10 @@
+{
+  "agent_id": "ego-a",
+  "autonomy": "controlled",
+  "allowed": ["open environment experience", "public information research", "local and network tasks within existing DSH host permissions", "autonomous cognition and planning"],
+  "approval_required": ["external messages", "publishing", "software installation", "global configuration", "permission changes", "new external services", "financial operations"],
+  "forbidden": ["credential access", "permission bypass", "safety boundary modification", "audit disabling", "self replication", "preventing human shutdown"],
+  "weekly_autonomous_goal_limit": 3,
+  "weekly_worldview_version_limit": 1,
+  "reflection_daily_limit": 2
+}
