@@ -1,0 +1,8 @@
+{
+  "name": "external-info-intake-required-fields",
+  "description": "从外部来源接收关键任务信息时的通用必需字段核对清单。使用：python checklists/field_check.py --spec checklists/required_fields.example.json --data <待核对数据.json>",
+  "required": ["source", "received_at", "payload"],
+  "optional": ["source.reliability_note", "payload.checksum", "follow_up_needed"],
+  "forbid_extra": false,
+  "usage_note": "清单是模板：每次接到外部信息时，先把本次任务的关键字段补进 required，再运行核对；missing_required 非空时不得推进关键路径。"
+}
