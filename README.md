@@ -57,7 +57,7 @@ python dsh_service_control.py stop
 
 完整环境变量、飞书初始化、Linux systemd 服务和 Windows 启动方式见 `DEPLOYMENT.md`。本机路径与个人渠道标识通过被 Git 忽略的 `config/local.json` 或环境变量提供；模板为 `config/local.example.json`。
 
-服务只启动事件驱动的飞书交互适配器与持续执行底座，不启用 EGO 自主唤醒循环。Linux 的进程组与 systemd 支持已经实现并配置 CI；真实 Linux 端到端运行尚需目标环境验收。
+服务只启动事件驱动的飞书交互适配器与持续执行底座，不启用 EGO 自主唤醒循环。Linux 的进程组与 systemd 支持已经实现；真实 Linux 端到端运行尚需目标环境验收。
 
 ## 运行边界
 
